@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{62f9b7af-f0a6-452e-ae94-9fd96f66d5d1}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{2546028d-9fa0-4927-81af-acb1e3a8804f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{033fa511-8f85-44e2-a36d-2811979b1816}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{464e85cc-5181-4f46-a475-b6e6e7259f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{63ac3d47-c8c8-4152-a388-d96ce3ba2b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{3a8f1fa6-587d-492c-8e62-49db0823d8da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{ce04ddf1-8d9f-4445-b09c-357e75abc435}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LEDBlink.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <None Include="stm32.mak">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="EmbeddedProject1-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="EmbeddedProject1-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="stm32.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\misc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_adc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_aes.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_aes_util.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_comp.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_crc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_dac.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_dbgmcu.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_dma.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_exti.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_flash.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_flash_ramfunc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_fsmc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_gpio.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_i2c.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_iwdg.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_lcd.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_opamp.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_pwr.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_rcc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_rtc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_sdio.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_spi.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_syscfg.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_tim.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_usart.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_wwdg.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\CMSIS_StdPeriph\Device\ST\STM32L1xx\Source\Templates\system_stm32l1xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\STM32L1xxxx\StartupFiles\startup_stm32l152xc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

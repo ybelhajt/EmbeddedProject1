@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<EmbeddedProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ToolchainID>com.visualgdb.arm-eabi</ToolchainID>
+  <ToolchainVersion>
+    <GCC>7.2.0</GCC>
+    <GDB>8.0.1</GDB>
+    <Revision>3</Revision>
+  </ToolchainVersion>
+  <BspID>com.visualgdb.bsp.in-place</BspID>
+  <BspVersion>1.0</BspVersion>
+  <McuID>STM32L152RC</McuID>
+  <MCUDefinitionFile>STM32L1xxxx\DeviceDefinitions\stm32l152xc.xml</MCUDefinitionFile>
+  <MCUProperties>
+    <Entries />
+  </MCUProperties>
+  <BSPSourceFolderName>Device-specific files</BSPSourceFolderName>
+  <InPlaceMCU>
+    <ID>STM32L152RC</ID>
+    <UserFriendlyName>STM32L152RC</UserFriendlyName>
+    <CompilationFlags>
+      <PreprocessorMacros>
+        <string>ARM_MATH_CM3</string>
+        <string>flash_layout</string>
+        <string>STM32L152RC</string>
+        <string>STM32L1XX_MDP</string>
+      </PreprocessorMacros>
+      <IncludeDirectories>
+        <string>.</string>
+        <string>D:/workpace/STM32L1xxxx/CMSIS_StdPeriph/Include</string>
+        <string>D:/workpace/STM32L1xxxx/CMSIS_StdPeriph/Device/ST/STM32L1xx/Include</string>
+        <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/inc</string>
+      </IncludeDirectories>
+      <CFLAGS />
+      <CXXFLAGS />
+      <LDFLAGS>--specs=nano.specs --specs=nosys.specs</LDFLAGS>
+      <ASFLAGS />
+      <LinkerScript>D:/workpace/STM32L1xxxx/LinkerScripts/STM32L152RC_flash.lds</LinkerScript>
+      <COMMONFLAGS>-mcpu=cortex-m3 -mthumb</COMMONFLAGS>
+      <EnableLinkerGroups>true</EnableLinkerGroups>
+    </CompilationFlags>
+    <AdditionalSourceFiles>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/misc.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_adc.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_aes.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_aes_util.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_comp.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_crc.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_dac.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_dbgmcu.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_dma.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_exti.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_flash.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_flash_ramfunc.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_fsmc.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_gpio.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_i2c.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_iwdg.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_lcd.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_opamp.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_pwr.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_rcc.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_rtc.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_sdio.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_spi.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_syscfg.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_tim.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_usart.c</string>
+      <string>D:/workpace/STM32L1xxxx/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_wwdg.c</string>
+      <string>D:/workpace/STM32L1xxxx/CMSIS_StdPeriph/Device/ST/STM32L1xx/Source/Templates/system_stm32l1xx.c</string>
+      <string>D:/workpace/STM32L1xxxx/StartupFiles/startup_stm32l152xc.c</string>
+    </AdditionalSourceFiles>
+    <AdditionalHeaderFiles />
+    <MemoryMap>
+      <Memories>
+        <MCUMemory>
+          <Name>FLASH</Name>
+          <Address>134217728</Address>
+          <Size>262144</Size>
+          <AddressSpaceSize>0</AddressSpaceSize>
+          <Flags>IsDefaultFLASH</Flags>
+        </MCUMemory>
+        <MCUMemory>
+          <Name>SRAM</Name>
+          <Address>536870912</Address>
+          <Size>32768</Size>
+          <AddressSpaceSize>0</AddressSpaceSize>
+          <Flags>None</Flags>
+        </MCUMemory>
+      </Memories>
+    </MemoryMap>
+    <AdditionalSystemVars>
+      <SysVarEntry>
+        <Key>com.sysprogs.bspoptions.arm.core</Key>
+        <Value>M3</Value>
+      </SysVarEntry>
+      <SysVarEntry>
+        <Key>com.sysprogs.stm32.hal_header_prefix</Key>
+        <Value>stm32l1xx</Value>
+      </SysVarEntry>
+      <SysVarEntry>
+        <Key>com.sysprogs.bspoptions.stm32.hal_system_file</Key>
+        <Value>STM32L1xxxx/CMSIS_HAL/Device/ST/STM32L1xx/Source/Templates/system_stm32l1xx.c</Value>
+      </SysVarEntry>
+      <SysVarEntry>
+        <Key>com.sysprogs.bspoptions.stm32.hal_config_template_file</Key>
+        <Value>STM32L1xxxx/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_conf_template.h</Value>
+      </SysVarEntry>
+      <SysVarEntry>
+        <Key>com.sysprogs.stm32.hal_device_family</Key>
+        <Value>STM32L152xC</Value>
+      </SysVarEntry>
+      <SysVarEntry>
+        <Key>com.sysprogs.stm32.legacy_device_family</Key>
+        <Value>STM32L1XX_MDP</Value>
+      </SysVarEntry>
+    </AdditionalSystemVars>
+    <ConfigurableProperties>
+      <PropertyGroups>
+        <PropertyGroup>
+          <Properties>
+            <PropertyEntry xsi:type="Enumerated">
+              <Name>Execute from</Name>
+              <UniqueID>com.sysprogs.bspoptions.primary_memory</UniqueID>
+              <OmitPrefixIfEmpty>false</OmitPrefixIfEmpty>
+              <SuggestionList>
+                <Suggestion>
+                  <UserFriendlyName>FLASH</UserFriendlyName>
+                  <InternalValue>flash</InternalValue>
+                </Suggestion>
+                <Suggestion>
+                  <UserFriendlyName>SRAM</UserFriendlyName>
+                  <InternalValue>sram</InternalValue>
+                </Suggestion>
+              </SuggestionList>
+              <DefaultEntryIndex>0</DefaultEntryIndex>
+              <AllowFreeEntry>false</AllowFreeEntry>
+            </PropertyEntry>
+            <PropertyEntry xsi:type="Boolean">
+              <Name>Exclude the startup file from project</Name>
+              <UniqueID>com.sysprogs.mcuoptions.ignore_startup_file</UniqueID>
+              <OmitPrefixIfEmpty>false</OmitPrefixIfEmpty>
+              <DefaultValue>false</DefaultValue>
+              <ValueForTrue>1</ValueForTrue>
+            </PropertyEntry>
+            <PropertyEntry xsi:type="Enumerated">
+              <Name>C Library Type</Name>
+              <UniqueID>com.sysprogs.toolchainoptions.arm.libctype</UniqueID>
+              <OmitPrefixIfEmpty>false</OmitPrefixIfEmpty>
+              <SuggestionList>
+                <Suggestion>
+                  <UserFriendlyName>Default</UserFriendlyName>
+                  <InternalValue />
+                </Suggestion>
+                <Suggestion>
+                  <UserFriendlyName>Newlib-nano</UserFriendlyName>
+                  <InternalValue>--specs=nano.specs</InternalValue>
+                </Suggestion>
+                <Suggestion>
+                  <UserFriendlyName>Newlib-nano with floating point support in printf()</UserFriendlyName>
+                  <InternalValue>--specs=nano.specs -u _printf_float</InternalValue>
+                </Suggestion>
+                <Suggestion>
+                  <UserFriendlyName>Newlib-nano with floating point support in printf() and scanf()</UserFriendlyName>
+                  <InternalValue>--specs=nano.specs -u _printf_float -u _scanf_float</InternalValue>
+                </Suggestion>
+              </SuggestionList>
+              <DefaultEntryIndex>1</DefaultEntryIndex>
+              <AllowFreeEntry>false</AllowFreeEntry>
+            </PropertyEntry>
+            <PropertyEntry xsi:type="Enumerated">
+              <Name>Implementations for _sbrk(), etc.</Name>
+              <UniqueID>com.sysprogs.toolchainoptions.arm.libnosys</UniqueID>
+              <OmitPrefixIfEmpty>false</OmitPrefixIfEmpty>
+              <SuggestionList>
+                <Suggestion>
+                  <UserFriendlyName>None</UserFriendlyName>
+                  <InternalValue />
+                </Suggestion>
+                <Suggestion>
+                  <UserFriendlyName>Minimal (no semihosting)</UserFriendlyName>
+                  <InternalValue>--specs=nosys.specs</InternalValue>
+                </Suggestion>
+                <Suggestion>
+                  <UserFriendlyName>Support semihosting</UserFriendlyName>
+                  <InternalValue>--specs=rdimon.specs</InternalValue>
+                </Suggestion>
+              </SuggestionList>
+              <DefaultEntryIndex>1</DefaultEntryIndex>
+              <AllowFreeEntry>false</AllowFreeEntry>
+            </PropertyEntry>
+          </Properties>
+          <CollapsedByDefault>false</CollapsedByDefault>
+        </PropertyGroup>
+      </PropertyGroups>
+    </ConfigurableProperties>
+    <HierarchicalPath>STM32\STM32L1</HierarchicalPath>
+    <FamilyID>STM32L1</FamilyID>
+    <FLASHSize>262144</FLASHSize>
+    <RAMSize>32768</RAMSize>
+    <FLASHBase>134217728</FLASHBase>
+    <RAMBase>536870912</RAMBase>
+    <MCUDefinitionFile>STM32L1xxxx\DeviceDefinitions\stm32l152xc.xml</MCUDefinitionFile>
+    <AdditionalSourcesRequiredForTesting>false</AdditionalSourcesRequiredForTesting>
+  </InPlaceMCU>
+  <MCUMakFile>stm32.mak</MCUMakFile>
+  <TestFrameworkProperties>
+    <Entries />
+  </TestFrameworkProperties>
+</EmbeddedProfile>
